@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400i,700');
+
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	font: 300 18px/1.9 'Lato', sans-serif;
+	color: #7a7a7a;
+	margin: 0;
+}
+
+.main {
+	width: 85%;
+	margin: 75px auto;
+	padding: 100px 110px;
+	box-shadow: 0 0 60px rgba(0, 0, 0, .2);
+}
+
+h1 {
+	font: 500 42px 'Playfair Display', serif;
+	margin-top: 0;
+	color: #171717;
+}
+
+
+.first_paragraph::first-letter {
+	font: 500 110px/0.8 'Playfair Display', serif;
+	color: #171717;
+	float: left;
+	margin: 0 35px 5px 0;
+
+}
+
+.last_paragraph {
+	font: 500 italic 24px/1.2 'Lato', sans-serif;
+}
+
+.last_paragraph span {
+	font-size: 48px;
+}	
+
+.button {
+	display: inline-block;
+	text-transform: uppercase;
+	text-decoration: none;
+	font: 700 18px/1.9 'Lato', sans-serif;
+	color: #eaa258;
+	border: 2px solid #eaa258;
+	letter-spacing: 5px;
+	padding: 10px 50px;
+	margin: 25px 0;
+	cursor: pointer;
+	transition: all .25s ease;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+	background: #eaa258;
+	color: #fff;
+}
